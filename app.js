@@ -57,6 +57,10 @@ app.get('/purpose', (req, res) => {
     res.render('purpose.ejs');
 });
 
+app.use((req, res) => {
+    res.status(404).render('404.ejs');
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });

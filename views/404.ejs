@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Borel&family=Englebert&family=Lemonada:wght@300..700&family=Patrick+Hand&family=Permanent+Marker&family=Playwrite+IN:wght@100..400&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://tse4.mm.bing.net/th?id=OIP.HX3UGgNdE8aCT_hticmW-wHaEK&pid=Api&P=0&h=180');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            font-size: 5rem;
+            color: #ff0000;
+            font-family: "Borel", cursive;
+            font-weight: 400;
+            font-style: normal;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 10rem;
+            font-style: italic;
+            margin: 0;
+            color: #ffffff;
+            font-family: "Englebert", sans-serif;
+        }
+
+        a {
+            margin-top: 20px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-family: "Patrick Hand", cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>404 🚫</h1>
+        <p>Lost in space</p>
+        <a href="/">Go back to Home</a>
+    </div>
+    <script>
+        const BackGroundImage = document.querySelector('body');
+        // const list = ["url('https://tse4.mm.bing.net/th?id=OIP.HX3UGgNdE8aCT_hticmW-wHaEK&pid=Api&P=0&h=180')", "url('https://tse2.mm.bing.net/th?id=OIP.Z_i874d3Uv75H1dcpWae7gHaEo&pid=Api&P=0&h=180')", "url('https://tse4.mm.bing.net/th?id=OIP.V24MoDbbctw0TPoDW1RRpwHaDt&pid=Api&P=0&h=180')", "url('https://tse3.mm.bing.net/th?id=OIP.Q3WdzZ2u_NdQ5Z3Kn0GGGAHaEK&pid=Api&P=0&h=180')", "url('https://tse2.mm.bing.net/th?id=OIP.bd-wappPtRtAlID9XEXksgHaDt&pid=Api&P=0&h=180')", "url('https://tse3.mm.bing.net/th?id=OIP.T3wl1FLejEgNjYVWwUmS0gHaFj&pid=Api&P=0&h=180')", "url('https://tse1.mm.bing.net/th?id=OIP.u-jEB_F-Tr1UOjre62muUgHaEK&pid=Api&P=0&h=180')"];
+        const image1="url('https://tse4.mm.bing.net/th?id=OIP.HX3UGgNdE8aCT_hticmW-wHaEK&pid=Api&P=0&h=180')";
+        const image2="url('https://tse2.mm.bing.net/th?id=OIP.Z_i874d3Uv75H1dcpWae7gHaEo&pid=Api&P=0&h=180')";
+        const image3="url('https://tse4.mm.bing.net/th?id=OIP.V24MoDbbctw0TPoDW1RRpwHaDt&pid=Api&P=0&h=180')";
+        const image4="url('https://tse3.mm.bing.net/th?id=OIP.Q3WdzZ2u_NdQ5Z3Kn0GGGAHaEK&pid=Api&P=0&h=180')";
+        const image5="url('https://tse2.mm.bing.net/th?id=OIP.bd-wappPtRtAlID9XEXksgHaDt&pid=Api&P=0&h=180')";
+        const image6="url('https://tse3.mm.bing.net/th?id=OIP.T3wl1FLejEgNjYVWwUmS0gHaFj&pid=Api&P=0&h=180')";
+        const image7="url('https://tse1.mm.bing.net/th?id=OIP.u-jEB_F-Tr1UOjre62muUgHaEK&pid=Api&P=0&h=180')";
+        const list = [image1, image2, image3, image4, image5, image6, image7];
+        let index = 0;
+        setInterval(() => {
+            index++;
+            let randomIndex = (index + 1) % list.length;
+            BackGroundImage.style.backgroundImage = list[randomIndex];
+            BackGroundImage.style.backgroundSize = "cover";
+            BackGroundImage.style.backgroundRepeat = "no-repeat";
+            BackGroundImage.style.backgroundPosition = "center";
+
+        }, 1000); // Change background every 5 seconds
+
+    </script>
+</body>
+
+</html>
