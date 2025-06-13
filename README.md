@@ -28,11 +28,21 @@ This is my small backend project built using **Node.js**, **Express.js**, and **
 
 ## 📸 Screenshots
 
-> Add screenshots or a GIF here to show your UI. Example:
-- Welcome Page  
-- About Page  
-- Contact Page  
-- Email received preview
+
+- Welcome Page
+
+![Screenshot 2025-06-13 162017](https://github.com/user-attachments/assets/f2e4471e-1281-4693-82c4-de2e6f53d072)
+
+
+- About Page
+  
+![Screenshot 2025-06-13 162346](https://github.com/user-attachments/assets/a643c485-dd94-4f9a-a5a7-2ae6021b204f)
+
+
+- Contact Page
+  
+![Screenshot 2025-06-13 162423](https://github.com/user-attachments/assets/3b84be4d-cbc7-4368-8096-96d9aaf49916)
+
 
 ---
 
