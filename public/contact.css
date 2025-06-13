@@ -60,4 +60,15 @@ button {
     color: white;
     font-size: clamp(1.2rem, 2vw, 1.4rem);
     cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: rgb(30, 30, 150);
 }
