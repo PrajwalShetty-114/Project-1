@@ -1,0 +1,63 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210, 210, 240);
+}
+
+.container {
+
+    max-width: 65vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+ 
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.textContainer {
+    text-align: center;
+
+    color: rgb(50, 50, 50);
+}
+p{
+    font-size: clamp(1rem, 1.1rem, 1.2rem);
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: clamp(2rem, 2.5rem, 3rem);
+    color: rgb(30, 30, 30);
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: clamp(1.3rem, 2vw, 1.5rem);
+    color: rgb(50, 50, 50);
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
+}
+
+button {
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 200);
+    color: white;
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
+    cursor: pointer;
+}
