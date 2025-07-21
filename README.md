@@ -50,7 +50,7 @@ This is my small backend project built using **Node.js**, **Express.js**, and **
 👉 [Visit the Live Website](https://project-1-q2wx.onrender.com)
 ---
 
-## 📁 Project Structure and How to ruun it locally
+## 📁 Project Structure and How to run it locally
 
 ```bash
 Welcome-App/
